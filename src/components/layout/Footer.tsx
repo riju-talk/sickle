@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-navy-900 text-gray-300 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <p className="font-heading font-bold text-brand-green text-base">SICKLE++</p>
-        <p className="text-xs text-gray-400 mt-2">Zero-Shot Agricultural AI Benchmark</p>
+        <p className="text-xs text-gray-400 mt-2">Multi-Task Agricultural AI Benchmark: Zero-Shot and Fine-Tuned</p>
         <p className="text-xs text-gray-400">
           Extending SICKLE (WACV 2024) to Real-World Deployment
         </p>
@@ -18,7 +18,7 @@ export default function Footer() {
           <li>Indian Council of Agricultural Research (ICAR)</li>
         </ul>
         <p className="text-xs text-gray-400 mt-6">
-          © 2026 SICKLE++ Project. All rights reserved. Last Updated: May 2026.
+          © 2026 SICKLE++ Project. All rights reserved. Last Updated: October 2026.
         </p>
       </div>
     </footer>
