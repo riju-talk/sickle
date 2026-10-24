@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Github, Menu, X } from "lucide-react";
+import { GITHUB_URL } from "@/lib/links";
 
 const links = [
   { label: "Overview", href: "#hero" },
@@ -39,6 +40,9 @@ export default function Navbar() {
                 {link.label}
               </button>
             ))}
+            <a href={GITHUB_URL} target="_blank" rel="noreferrer" aria-label="SICKLE++ on GitHub" className="text-gray-300 hover:text-white">
+              <Github size={16} />
+            </a>
           </div>
           <button className="lg:hidden text-gray-300" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu">
             {menuOpen ? <X size={18} /> : <Menu size={18} />}
@@ -51,6 +55,9 @@ export default function Navbar() {
                 {link.label}
               </button>
             ))}
+            <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 text-sm text-gray-300 hover:text-white">
+              <Github size={16} /> GitHub
+            </a>
           </div>
         )}
       </div>

@@ -1,3 +1,5 @@
+import { GITHUB_URL, GITHUB_ISSUES_URL, EXPERIMENTS_URL } from "@/lib/links";
+
 export default function Footer() {
   return (
     <footer className="bg-navy-900 text-gray-300 py-12 px-4">
@@ -6,6 +8,11 @@ export default function Footer() {
         <p className="text-xs text-gray-400 mt-2">Multi-Task Agricultural AI Benchmark: Zero-Shot and Fine-Tuned</p>
         <p className="text-xs text-gray-400">
           Extending SICKLE (WACV 2024) to Real-World Deployment
+        </p>
+        <p className="text-xs mt-3 space-x-4">
+          <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="text-brand-green hover:underline">GitHub</a>
+          <a href={EXPERIMENTS_URL} target="_blank" rel="noreferrer" className="text-brand-green hover:underline">Experiments repo</a>
+          <a href={GITHUB_ISSUES_URL} target="_blank" rel="noreferrer" className="text-brand-green hover:underline">Report an issue</a>
         </p>
       </div>
 
