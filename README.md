@@ -16,6 +16,8 @@ SICKLE++ benchmarks ground-level Andhra Pradesh crop data against models trained
 
 All Phase 2 numbers on the site are generated into `src/data/phase2Data.json` from the experiment repository's run outputs.
 
+**Website Repository:** [github.com/riju-talk/sickle](https://github.com/riju-talk/sickle)
+
 **Main Experimentation Repository:** [github.com/riju-talk/sickle-plus-plus](https://github.com/riju-talk/sickle-plus-plus)
 
 **Research Tasks:**
@@ -57,7 +59,7 @@ For research using SICKLE or SICKLE++, please cite:
 
 ## Support
 
-For questions or issues related to the SICKLE++ research, please refer to the embedded presentation PDF in the "Existing Work" section or contact the research team.
+For questions or issues related to the SICKLE++ research, please refer to the embedded presentation PDF in the "Existing Work" section or contact the research team, or [open an issue](https://github.com/riju-talk/sickle/issues) on GitHub.
 
 ---
 

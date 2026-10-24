@@ -5,7 +5,7 @@ import { Phase2Model } from "@/components/phase2/Phase2Model";
 import { Phase2ResultsSummary, Phase2Transplanting, Phase2CropType, Phase2Findings } from "@/components/phase2/Phase2Results";
 import ArchivedZeroShot from "@/components/phase2/ArchivedZeroShot";
 
-const GITHUB_URL = "https://github.com/your-org/sickle-plus-plus";
+import { GITHUB_URL } from "@/lib/links";
 
 const phase1TamilNaduRows = [
   {
